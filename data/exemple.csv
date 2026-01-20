@@ -1,0 +1,5 @@
+nom,role,technologie,description
+Mistral,LLM,Intelligence artificielle,Modèle de langage pour génération et embeddings
+Qdrant,Vector Store,Base de données,Stockage et recherche vectorielle performante
+LangChain,Orchestrateur,Framework,Chaînage des composants RAG
+Streamlit,Interface,Framework web,Interface utilisateur simple et rapide
