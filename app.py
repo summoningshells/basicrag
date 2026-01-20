@@ -105,7 +105,7 @@ def init_components():
 
     return qdrant_client, embeddings, llm
 
-@st.cache_data
+@st.cache_resource
 def load_and_index_documents(_qdrant_client, _embeddings):
     documents = load_documents_from_directory("data")
 
@@ -149,7 +149,7 @@ def main():
         st.info("Documents chargés depuis le dossier 'data/'")
 
         if st.button("Recharger les documents"):
-            st.cache_data.clear()
+            st.cache_resource.clear()
             st.rerun()
 
     # Chargement et indexation
