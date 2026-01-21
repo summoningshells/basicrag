@@ -27,7 +27,7 @@ python -m ipykernel install --user --name=rag-venv --display-name="Python (RAG)"
 
 ## Configuration
 
-Les clés API sont déjà configurées dans le fichier `.env`.
+rentrer vos clés API dans un fichier `.env` (cf fichier env.example).
 
 **Note**: Vous verrez un avertissement sur Pydantic V1 avec Python 3.14, c'est normal et peut être ignoré. Le code fonctionne malgré cet avertissement.
 
@@ -36,7 +36,7 @@ Les clés API sont déjà configurées dans le fichier `.env`.
 ### Option 1: Jupyter Notebook
 
 ```bash
-jupyter notebook rag_notebook.ipynb
+jupyter-notebook rag_notebook.ipynb
 ```
 
 **Important**: Sélectionnez le kernel "Python (RAG)" dans le menu `Kernel > Change Kernel`
@@ -59,11 +59,6 @@ L'interface s'ouvre dans votre navigateur. Posez vos questions directement.
 ## Ajout de documents
 
 Placez vos fichiers dans le dossier `data/`:
-- `data/mon_fichier.txt`
-- `data/mes_donnees.csv`
-- `data/config.json`
-- `data/document.pdf`
-
 Le système charge automatiquement tous les fichiers supportés.
 
 ## Architecture
