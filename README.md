@@ -8,6 +8,7 @@ Système RAG (Retrieval-Augmented Generation) minimaliste pour interroger des do
 - JSON
 - PDF
 
+![preview](previewv1.png)
 ## Installation
 
 ```bash

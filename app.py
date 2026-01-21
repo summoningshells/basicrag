@@ -137,8 +137,8 @@ def load_and_index_documents(_qdrant_client, _embeddings):
 
 # Interface Streamlit
 def main():
-    st.title("RAG - Interrogation de Documents")
-    st.markdown("Posez des questions sur vos documents (CSV, TXT, JSON, PDF)")
+    st.title("RAG - Groupe 2 AI4industry")
+    st.markdown("chattez avec vos documents internes!")
 
     # Initialisation
     qdrant_client, embeddings, llm = init_components()
